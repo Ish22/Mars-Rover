@@ -1,0 +1,79 @@
+body {
+    margin: 0
+    ;
+    background-color: #5d5d5d;
+  }
+  .wrapper {
+    
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: repeat(38, 41px);
+    grid-template-rows: 40px repeat(9, 40px) 40px;
+    grid-auto-flow: row;
+  }
+ 
+  
+  .box {
+    padding: 20px;
+    font-size: 150%;
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    border: 1px solid black;
+    
+  }
+  #mydiv {
+    position: absolute;
+    top:0;
+    right:0;
+    /* z-index: 9; */
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid #d3d3d3;
+    text-align: center;
+   
+  }
+  
+  #mydivheader {
+    padding: 10px;
+    cursor: move;
+    /* z-index: 10; */
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+  }
+  #c {
+    /* z-index:9999999; */
+  }
+#c:hover
+  {
+    background-color: red;
+    cursor: pointer;
+
+  }
+
+ #d{
+   
+    position: absolute;
+    min-width: 160px;
+    display: none;
+    
+
+  }
+#c:hover #d{
+  display: block;
+}
+  
+ .Heuristic{
+
+color: white;
+display:inline-block;
+text-align: left;
+  }
+.Options{
+
+    color: white;
+    display:block;
+   
+   
+}
+
